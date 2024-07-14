@@ -19,5 +19,5 @@ jobs:
     - name: 从文件读取需要续费的ID
       run: |
           sudo apt-get update && sudo apt-get install -y jq
-          bash <(curl -fsSL git.io/warp.sh) 4
+          sudo bash <(curl -fsSL git.io/warp.sh) 4
           curl -s https://lantian.pro/
